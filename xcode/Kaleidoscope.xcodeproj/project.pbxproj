@@ -175,6 +175,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kaleidoscope" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -218,6 +221,7 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -238,6 +242,7 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_FAST_MATH = YES;
@@ -267,7 +272,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				SDKROOT = "";
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
 			};
@@ -282,7 +287,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				SDKROOT = "";
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
 			};
